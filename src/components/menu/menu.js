@@ -47,9 +47,9 @@ function menuMaker(menuItems) {
       menuList.appendChild(link);
   })
 
-  const menuButton = document.querySelector('menu-button');
+  const mButton = document.querySelector('menu-button');
 
-  menuButton.addEventListener('click', () => {
+  mButton.addEventListener('click', () => {
       menuWrap.classList.toggle('menu--open');
   })
 
